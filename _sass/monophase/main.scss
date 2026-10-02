@@ -1,0 +1,14 @@
+// Everything in this folder is taken from the Monophase repo (and is therefore MIT-licensed)
+// since I was annoyed that the Gem version of the theme doesn't have predefined classes for
+// alignment, and I would have to override theme stuff anyway to make my own.
+// https://github.com/zivhub/monophase
+
+@import "variables";
+@import "base";
+@import "layout";
+@import "predefined";
+
+@import "highlight-light";
+@media (prefers-color-scheme: dark) {
+  @import "highlight-dark";
+}
