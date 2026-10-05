@@ -66,10 +66,17 @@ defaults:
 
 author:
   name: "TriviaSolari"
+  bio: "Aspiring game developer, Space Station 14 contributor, and tabletop enthusiast."
   links:
   - label: "GitHub"
     icon: "fab fa-github"
     url: "https://github.com/TriviaSolari"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/TriviaSolari"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
